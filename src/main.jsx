@@ -4,9 +4,10 @@ import "./index.css";
 
 // Examples
 import Err1 from "./pages/Examples/ErrorBoundaries/ExampleErrorBoundaryClass";
+import Err2 from "./pages/Examples/ErrorBoundaries/ExampleHocUsage";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <Err1 />
+        <Err2 />
     </React.StrictMode>
 );
