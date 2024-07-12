@@ -10,9 +10,10 @@ import Profiller1 from "./pages/Examples/Profiler/Example1";
 
 import ReactUseRef from "./pages/Examples/ReactHooks/ExampleUseRef";
 import ReactUseRef2 from "./pages/Examples/ReactHooks/ExampleUseRef2";
+import ReactUseRef3 from "./pages/Examples/ReactHooks/ExampleUseRef3";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <ReactUseRef2 />
+        <ReactUseRef3 />
     </React.StrictMode>
 );
