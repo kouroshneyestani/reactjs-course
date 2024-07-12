@@ -6,8 +6,10 @@ import "./index.css";
 import Err1 from "./pages/Examples/ErrorBoundaries/ExampleErrorBoundaryClass";
 import Err2 from "./pages/Examples/ErrorBoundaries/ExampleHocUsage";
 
+import Profiller1 from "./pages/Examples/Profiler/Example1";
+
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <Err2 />
+        <Profiller1 />
     </React.StrictMode>
 );
