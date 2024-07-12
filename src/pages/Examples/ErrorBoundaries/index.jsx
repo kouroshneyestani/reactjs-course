@@ -1,8 +1,12 @@
+import ErrorBoundary from "../../../ErrorBoundary";
+
 function App() {
     return (
         <div>
-            <h1>Error Boundaries</h1>
-            {/* <ErrorComponent /> */}
+            <ErrorBoundary>
+                <h1>Error Boundaries</h1>
+                <ErrorComponent />
+            </ErrorBoundary>
         </div>
     );
 }
@@ -10,6 +14,5 @@ function App() {
 function ErrorComponent() {
     throw new Error();
 }
-
 
 export default App;
