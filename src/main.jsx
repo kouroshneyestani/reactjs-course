@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
+//
+import App from "./App";
+
 // Examples
 import Err1 from "./pages/Examples/ErrorBoundaries/ExampleErrorBoundaryClass";
 import Err2 from "./pages/Examples/ErrorBoundaries/ExampleHocUsage";
@@ -17,6 +20,6 @@ import ErrorHandling1 from "./pages/Examples/ErrorHandling/Example1";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <ErrorHandling1 />
+        <App />
     </React.StrictMode>
 );
