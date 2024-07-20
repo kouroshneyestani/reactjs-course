@@ -15,12 +15,16 @@ import ReactUseRef1 from "./pages/Examples/ReactHooks/ExampleUseRef1";
 import ReactUseRef2 from "./pages/Examples/ReactHooks/ExampleUseRef2";
 import ReactUseRef3 from "./pages/Examples/ReactHooks/ExampleUseRef3";
 import ReactUseRef4 from "./pages/Examples/ReactHooks/ExampleUseRef4";
+
 import ReactUseEffect1 from "./pages/Examples/ReactHooks/ExampleUseEffect1";
+import ReactUseEffect2 from "./pages/Examples/ReactHooks/ExampleUseEffect2";
+import ReactUseEffect3 from "./pages/Examples/ReactHooks/ExampleUseEffect3";
+import ReactUseEffect6 from "./pages/Examples/ReactHooks/ExampleUseEffect6";
 
 import ErrorHandling1 from "./pages/Examples/ErrorHandling/Example1";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <ReactUseEffect1 />
+        <ReactUseEffect3 />
     </React.StrictMode>
 );
