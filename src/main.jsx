@@ -23,8 +23,11 @@ import ReactUseEffect6 from "./pages/Examples/ReactHooks/ExampleUseEffect6";
 
 import ErrorHandling1 from "./pages/Examples/ErrorHandling/Example1";
 
+import ReactUseReducer1 from "./pages/Examples/ReactHooks/ExampleUseReducer1.jsx";
+
+
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <ReactUseEffect3 />
+        <ReactUseReducer1 />
     </React.StrictMode>
 );
